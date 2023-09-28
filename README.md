@@ -24,11 +24,13 @@ This module is original translated from English to Indonesian
 
 # How to Install
 
-1. Download file indonesia.php
-2. Upload the file indonesia.php to your hosting directory /home/username/public_html/whmcs/lang/
-3. Login to WHMCS Admin
-4. Go to Tabs Setup -> General Settings -> Localisation -> Default Language change it to Indonesia
+1. Download indonesia.php file from this repository
+2. Upload the file indonesia.php to your hosting directory home web directory example:  /[web_folder]/whmcs/lang/
+3. Login to your WHMCS web Admin
+4. Go to Tabs Setup -> General Settings -> Localisation -> Default Language, change it to Indonesia
 5. Save Changes
+6. test your client sites
+7. finish
 
 # Credits
 cloudstack.id
