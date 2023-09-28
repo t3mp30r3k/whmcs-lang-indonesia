@@ -33,7 +33,7 @@ This module is original translated from English to Indonesian
 7. finish
 
 # Support team
-[![paypal](https://s3.cloudstack.id/s/jFJsfmTBnTiAafa)](https://www.paypal.com/donate/?business=rusdianto@gmail.com&no_recurring=0&item_name=Donate+for+WHMCS+Indonesia+Language+Example&item_number=Suggested+Price:+$3.99+USD&currency_code=USD)
+[![paypal](https://s3.cloudstack.id/apps/files_sharing/publicpreview/jFJsfmTBnTiAafa?file=/&fileId=97543&x=1920&y=1080&a=true)](https://www.paypal.com/donate/?business=rusdianto@gmail.com&no_recurring=0&item_name=Donate+for+WHMCS+Indonesia+Language+Example&item_number=Suggested+Donate:+$3.99+USD&currency_code=USD)
 
 # Credits
 
