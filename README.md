@@ -7,12 +7,20 @@ This module is original translated from English to Indonesian
 # WHMCS Version Supported
 
 7.0.1
+
 7.0.2
+
 7.1.0
+
 7.1.2
+
 7.2.x
+
 7.4.x
-8.x.x
+
+8.0.x
+
+8.1.x
 
 # How to Install
 
