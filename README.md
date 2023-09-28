@@ -32,6 +32,9 @@ This module is original translated from English to Indonesian
 6. test your client sites
 7. finish
 
+# Support team
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/donate/?business=rusdianto@gmail.com&no_recurring=0&item_name=Payment+for+Stackoverflow+Example&item_number=Suggested+Price:+$3.99+USD&currency_code=USD)
+
 # Credits
 
 Rusdianto@gmail.com
