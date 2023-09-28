@@ -12,10 +12,10 @@
  *   https://developers.whmcs.com/languages/overrides/
  *
  * @package    WHMCS Lang-ID
- * @author     Rusdianto <rusdianto@cloudstack.id>
+ * @author     Rusdianto <rusdianto@gmail.com>
  * @copyright  Copyright (c) WHMCS Limited 2005-2018
  * @version    $Id$
- * @link       https://cloudstack.id/
+ * @link       https://github.com/t3mp30r3k/whmcs-lang-indonesia
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
