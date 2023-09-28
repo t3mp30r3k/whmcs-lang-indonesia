@@ -33,7 +33,7 @@ This module is original translated from English to Indonesian
 7. finish
 
 # Support team
-[![paypal](https://www.lucymac.org/wp-content/uploads/2020/06/65-659196_paypal-donate-button-png-transparent-paypal-donation-buttons.png)](https://www.paypal.com/donate/?business=rusdianto@gmail.com&no_recurring=0&item_name=Donate+for+WHMCS+Indonesia+Language+Example&item_number=Suggested+Price:+$3.99+USD&currency_code=USD)
+[![paypal](https://s3.cloudstack.id/s/jFJsfmTBnTiAafa)](https://www.paypal.com/donate/?business=rusdianto@gmail.com&no_recurring=0&item_name=Donate+for+WHMCS+Indonesia+Language+Example&item_number=Suggested+Price:+$3.99+USD&currency_code=USD)
 
 # Credits
 
