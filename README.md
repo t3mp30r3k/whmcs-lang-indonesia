@@ -33,6 +33,5 @@ This module is original translated from English to Indonesian
 7. finish
 
 # Credits
-cloudstack.id
 
 Rusdianto@gmail.com
