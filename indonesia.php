@@ -12,11 +12,12 @@
  *   https://developers.whmcs.com/languages/overrides/
  *
  * @package    WHMCS Lang-ID
- * @author     Rusdianto <rusdianto@gmail.com>
+ * @author     Rusdianto <rusdianto@cloudstack.id>
  * @copyright  Copyright (c) WHMCS Limited 2005-2018
  * @version    $Id$
- * @link       https://github.com/t3mp30r3k/whmcs-lang-indonesia
+ * @link       https://cloudstack.id/
  */
+
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
@@ -1191,8 +1192,8 @@ $_LANG['captchatitle'] = "Verifikasi Bot Spam";
 $_LANG['captchaverify'] = "Silakan masukkan karakter yang Anda lihat pada gambar masukkan ke dalam kotak teks yang tersedia. Hal ini diperlukan untuk mencegah pengiriman otomatis.";
 $_LANG['captchaverifyintrue'] = "Karakter yang Anda masukkan tidak sesuai dengan gambar yang ditampilkan. Silakan coba lagi.";
 $_LANG['googleRecaptchaIntrue'] = "Silakan lengkapi captcha dan coba lagi.";
-$_LANG['recaptcha-invalid-site-private-key'] = "Terjadi kesalahan, silakan hubungi dukungan (kode kesalahan: cap1)";
-$_LANG['recaptcha-invalid-request-cookie'] = "Terjadi kesalahan, silakan coba lagi (kode kesalahan: cap2)";
+$_LANG['recaptcha-invalid-site-private-key'] = "Terjadi kesalahan, silakan hubungi dukungan (error code: cap1)";
+$_LANG['recaptcha-invalid-request-cookie'] = "Terjadi kesalahan, silakan coba lagi (error code: cap2)";
 $_LANG['recaptcha-intrue-captcha-sol'] = "Karakter yang Anda masukkan tidak cocok dengan kata verifikasi. Silakan coba lagi.";
 
 # Product Bundles
@@ -1252,7 +1253,7 @@ $_LANG['downloadssearch'] = "Cari Unduhan";
 $_LANG['emailviewmessage'] = "Lihat Pesan";
 $_LANG['resultsperpage'] = "Hasil Per Halaman";
 $_LANG['accessdenied'] = "Akses Ditolak";
-$_LANG['search'] = "Pencarian";
+$_LANG['search'] = "Lacak";
 $_LANG['cancel'] = "Batal";
 $_LANG['clientareabacklink'] = "&laquo; Kembali";
 $_LANG['backtoserviceslist'] = "&laquo; Kembali ke Daftar Layanan";
@@ -1489,7 +1490,7 @@ $_LANG['twofabackupcodelogin'] = "Masukkan Kode Cadangan Anda untuk Masuk";
 $_LANG['twofabackupcodeexpl'] = "Perlakukan kode cadangan sama seperti kata sandi Anda. Kami sarankan menyimpannya dengan pengelola kata sandi.";
 $_LANG['twofaconfirmpw'] = "Masukkan Kata Sandi Anda";
 $_LANG['twofa2ndfactorreq'] = "Faktor kedua Anda diperlukan untuk menyelesaikan login.";
-$_LANG['twofa2ndfactorintrue'] = "Faktor kedua yang Anda berikan salah. Silakan coba lagi. Anda mempunyai :usaha yang tersisa.";
+$_LANG['twofa2ndfactorintrue'] = "Faktor kedua yang Anda berikan salah. Silakan coba lagi. Anda mempunyai :attempts yang tersisa.";
 $_LANG['twofabackupcodereset'] = "Login melalui Kode Cadangan Berhasil.<br />Kode Cadangan hanya valid satu kali. Sekarang akan direset.";
 $_LANG['twofacantaccess2ndfactor'] = "Tidak Dapat Mengakses Perangkat Faktor Kedua Anda?";
 $_LANG['twofaloginusingbackupcode'] = "Masuk menggunakan Kode Cadangan";
@@ -1783,8 +1784,8 @@ $_LANG['quoteacceptagreetos'] = "Untuk menerima penawaran, harap konfirmasikan p
 $_LANG['quoteacceptcontractwarning'] = "Harap diperhatikan bahwa menerima penawaran dianggap menandatangani kontrak dan Anda tidak akan dapat membatalkan setelah diterima.";
 
 // Client alerts
-$_LANG['clientAlerts']['creditCardExpiring'] = "Kartu kredit Anda :creditCardType-:creditCardLastFourDigits akan habis masa berlakunya dalam :hari hari. Harap perbarui sesegera mungkin.";
-$_LANG['clientAlerts']['domainsExpiringSoon'] = "Anda memiliki :numberOfDomains domain yang masa berlakunya akan habis dalam beberapa :hari ke depan.";
+$_LANG['clientAlerts']['creditCardExpiring'] = "Kartu kredit Anda :creditCardType-:creditCardLastFourDigits akan habis masa berlakunya dalam :days hari. Harap perbarui sesegera mungkin.";
+$_LANG['clientAlerts']['domainsExpiringSoon'] = "Anda memiliki :numberOfDomains domain yang masa berlakunya akan habis dalam beberapa :days ke depan.";
 $_LANG['clientAlerts']['invoicesUnpaid'] = "Anda memiliki :numberOfInvoices faktur yang belum dibayar. Bayar lebih awal untuk ketenangan pikiran.";
 $_LANG['clientAlerts']['invoicesOverdue'] = "Anda memiliki :numberOfInvoices faktur yang telah jatuh tempo dengan total saldo jatuh tempo :balanceDue. Bayar sekarang untuk menghindari gangguan dalam layanan.";
 $_LANG['clientAlerts']['creditBalance'] = "Anda memiliki saldo kredit :creditBalance.";
@@ -1795,7 +1796,7 @@ $_LANG['klienHomePanels']['unpaidInvoicesMsg'] = "Anda memiliki :numberOfInvoice
 $_LANG['clientHomePanels']['overdueInvoices'] = "Faktur yang sudah lewat jatuh tempo";
 $_LANG['clientHomePanels']['overdueInvoicesMsg'] = "Anda memiliki :numberOfInvoices faktur yang telah jatuh tempo dengan total saldo jatuh tempo :balanceDue. Bayar sekarang untuk menghindari gangguan dalam layanan.";
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "Domain Segera Kedaluwarsa";
-$_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "Anda memiliki :numberOfDomains domain yang akan habis masa berlakunya dalam beberapa :hari ke depan. Perbarui domain tersebut hari ini untuk ketenangan pikiran.";
+$_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "Anda memiliki :numberOfDomains domain yang akan habis masa berlakunya dalam beberapa :days ke depan. Perbarui domain tersebut hari ini untuk ketenangan pikiran.";
 $_LANG['clientHomePanels']['activeProductsServices'] = "Produk/Layanan Aktif Anda";
 $_LANG['clientHomePanels']['activeProductsServicesNone'] = "Tampaknya Anda belum memiliki produk/layanan apa pun dengan kami. <a href=\"cart.php\">Lakukan pemesanan untuk memulai</a> .";
 $_LANG['clientHomePanels']['recentNews'] = "Berita Terkini";
@@ -1950,8 +1951,8 @@ $_LANG['hideMenu'] = "Sembunyikan Menu";
 
 $_LANG['from'] = "Dari";
 $_LANG['featuredProduct'] = "Paling Populer";
-$_LANG['shoppingCartProductPerMonth'] = "<span>:harga</span>/:countmo";
-$_LANG['shoppingCartProductPerYear'] = "<span>:harga</span>/:countyr";
+$_LANG['shoppingCartProductPerMonth'] = "<span>:price</span>/:countmo";
+$_LANG['shoppingCartProductPerYear'] = "<span>:price</span>/:countyr";
 
 $_LANG['orderForm']['findNewDomain'] = "Temukan nama domain baru Anda. Masukkan nama atau kata kunci Anda di bawah ini ke cketersediaannya.";
 $_LANG['orderForm']['transferExistingDomain'] = "Transfer nama domain Anda yang ada kepada kami dan simpan.";
@@ -2001,7 +2002,7 @@ $_LANG['orderForm']['tryRegisteringInstead'] = "Coba daftarkan domain ini.";
 $_LANG['orderForm']['domainAvailabilityCached'] = "Hasil ketersediaan domain di-cache yang mungkin menyebabkan domain yang baru didaftarkan ditampilkan sebagai tersedia.";
 $_LANG['orderForm']['submitTicket'] = "Kirim Tiket";
 $_LANG['orderForm']['promotionAccepted'] = "Kode Promosi Diterima! Total pesanan Anda telah diperbarui.";
-$_LANG['orderForm']['promoCycles'] = "Kedaluwarsa setelah :siklus periode penagihan/detik";
+$_LANG['orderForm']['promoCycles'] = "Kedaluwarsa setelah :cycles periode penagihan/detik";
 $_LANG['orderForm']['productOptions'] = "Produk/Opsi";
 $_LANG['orderForm']['qty'] = "Jumlah";
 $_LANG['orderForm']['priceCycle'] = "Harga/Siklus";
@@ -2175,8 +2176,8 @@ $_LANG['clientareatransferredaway'] = "Ditransfer";
 $_LANG['clientareacompleted'] = "Selesai";
 $_LANG['domainContactUs'] = "Hubungi Kami";
 
-$_LANG['orderForm']['shortPerYear'] = "/:tahunyr";
-$_LANG['orderForm']['shortPerYears'] = "/:tahunsyrs";
+$_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
+$_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
 
 $_LANG['domainCheckerSalesGroup']['sale'] = "Penjualan";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Panas";
@@ -2302,7 +2303,7 @@ $_LANG['ssl']['approverEmailProcess'] = "<h4>Tentang Proses Email Penyetuju</h4>
 
 
 $_LANG['upgradeCredit'] = "Tingkatkan Kredit";
-$_LANG['upgradeCreditDescription'] = "Penghitungan berdasarkan :daysSisa hari yang tidak terpakai dari :totalDays total hari dalam siklus penagihan saat ini.";
+$_LANG['upgradeCreditDescription'] = "Penghitungan berdasarkan :days Sisa hari yang tidak terpakai dari :totalDays total hari dalam siklus penagihan saat ini.";
 
 $_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Domain Anda tidak didukung untuk transfer kepada kami saat ini. Silakan coba domain lain.";
 $_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Domain Anda tidak memenuhi syarat untuk ditransfer ke kami. Silakan coba domain lain.";
@@ -2443,12 +2444,12 @@ $_LANG['domainRenewal']['graceFee'] = "Biaya Tenggang";
 $_LANG['domainRenewal']['redemptionFee'] = "Biaya Penukaran";
 $_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "Domain memasuki Masa Tenggang setelah habis masa berlakunya. Setelah berada dalam status ini, domain hanya dapat diperpanjang maksimal selama jangka waktu periode pendaftaran minimum.";
 $_LANG['domainRenewal']['hasExpired'] = "Domain ini telah kedaluwarsa.";
-$_LANG['domainRenewal']['expiringIn'] = "Kedaluwarsa dalam :hari hari";
-$_LANG['domainRenewal']['expiredDaysAgo'] = "Kedaluwarsa :beberapa hari yang lalu";
+$_LANG['domainRenewal']['expiringIn'] = "Kedaluwarsa dalam :days hari";
+$_LANG['domainRenewal']['expiredDaysAgo'] = "Kedaluwarsa :days hari yang lalu";
 $_LANG['domainRenewal']['noDomains'] = "Saat ini Anda tidak memiliki domain apa pun yang memenuhi syarat untuk perpanjangan";
-$_LANG['domainRenewal']['showingDomains'] = "Menampilkan :menampilkan :totalCount domain";
+$_LANG['domainRenewal']['showingDomains'] = "Menampilkan :showing :totalCount domain";
 $_LANG['domainRenewal']['showAll'] = "Tampilkan Semua";
-$_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maksimum Perpanjangan di Muka adalah :hari Hari";
+$_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maksimum Perpanjangan di Muka adalah :days Hari";
 
 $_LANG['navMarketConnectService']['sitelock'] = "Keamanan Situs Web";
 $_LANG['store']['sitelock']['title'] = "Keamanan Situs Web SiteLock";
@@ -2500,12 +2501,12 @@ $_LANG['store']['sitelock']['emergencyPlanUpdatesTitle'] = "Pembaruan waktu nyat
 $_LANG['store']['sitelock']['emergencyPlanUpdatesContent'] = "Lacak kemajuan dengan pembaruan real-time kami selama proses pembersihan dan pemulihan situs Anda.";
 $_LANG['store']['sitelock']['emergencyPlanPaymentTitle'] = "Pembayaran satu kali";
 $_LANG['store']['sitelock']['emergencyPlanPaymentContent'] = "Layanan darurat tersedia dengan biaya satu kali saja, tidak ada biaya berulang atau langganan.";
-$_LANG['store']['sitelock']['emergencyPlanOnlyCost'] = "Hanya :harga untuk perlindungan 7 hari";
+$_LANG['store']['sitelock']['emergencyPlanOnlyCost'] = "Hanya :price untuk perlindungan 7 hari";
 $_LANG['store']['sitelock']['buyNow'] = "Beli Sekarang";
 $_LANG['store']['sitelock']['faqTitle'] = "Pertanyaan yang Sering Diajukan";
 $_LANG['store']['sitelock']['faqOneTitle'] = "Apa itu SiteLock?";
 $_LANG['store']['sitelock']['faqOneBody'] = "SiteLock memberikan keamanan situs web yang sederhana, cepat, dan terjangkau untuk semua ukuran situs web. Didirikan pada tahun 2008, perusahaan ini melindungi lebih dari 12 juta situs web di seluruh dunia. Cloud SiteLock rangkaian produk berbasis menawarkan deteksi kerentanan situs web otomatis dan penghapusan malware, perlindungan DDoS, akselerasi situs web, penilaian risiko situs web, dan kepatuhan PCI.";
-$_LANG['store']['sitelock']['faqOneBodyLearnMore'] = "Untuk mempelajari lebih lanjut tentang SiteLock, :pelajariLebih LanjutTautan";
+$_LANG['store']['sitelock']['faqOneBodyLearnMore'] = "Untuk mempelajari lebih lanjut tentang SiteLock, :learnMoreLink";
 $_LANG['store']['sitelock']['faqOneBodyLearnLinkText'] = "tonton video 'Cara Kerja SiteLock' dengan mengklik di sini";
 $_LANG['store']['sitelock']['faqTwoTitle'] = "Apa yang dilakukan SiteLock?";
 $_LANG['store']['sitelock']['faqTwoBody'] = "SiteLock memberikan keamanan situs web yang komprehensif. Ia melakukan pemindaian situs web setiap hari untuk mengidentifikasi kerentanan atau malware. Ketika kerentanan atau malware ditemukan, Anda akan segera diberi tahu. Berdasarkan pada pemindai SiteLock Anda, secara otomatis akan menghapus malware apa pun di situs web Anda. Untuk situs web sistem manajemen konten (CMS), SiteLock dapat secara otomatis menambal kerentanan yang ditemukan.";
@@ -2549,44 +2550,44 @@ $_LANG['upgradeService']['select'] = "Pilih";
 
 $_LANG['feeds']['itemsInBasket'] = "Anda memiliki <b>:count</b> item di keranjang Anda";
 
-$_LANG['validation']['accepted'] = "Atribut :atribut harus diterima.";
-$_LANG['validation']['active_url'] = "Atribut :atribut bukan URL yang valid.";
-$_LANG['validation']['after'] = "Atribut :atribut harus berupa tanggal setelah :date.";
-$_LANG['validation']['alpha'] = "Atribut :atribut hanya boleh berisi huruf.";
-$_LANG['validation']['alpha_dash'] = "Atribut :atribut hanya boleh berisi huruf, angka, dan tanda hubung.";
-$_LANG['validation']['alpha_num'] = "Atribut :atribut hanya boleh berisi huruf dan angka.";
-$_LANG['validation']['array'] = "Atribut :atribut harus berupa array.";
-$_LANG['validation']['before'] = "Atribut :atribut harus berupa tanggal sebelum :date.";
-$_LANG['validation']['between']['numeric']= "Atribut :atribut harus berada di antara :min dan :max.";
-$_LANG['validation']['between']['file'] = "Atribut :atribut harus antara :min dan :max kilobyte.";
-$_LANG['validation']['between']['string'] = "Atribut :atribut harus berada di antara karakter :min dan :max.";
-$_LANG['validation']['between']['array'] = "Atribut :atribut harus berada di antara item :min dan :max.";
+$_LANG['validation']['accepted'] = "Atribut :attribute harus diterima.";
+$_LANG['validation']['active_url'] = "Atribut :attribute bukan URL yang valid.";
+$_LANG['validation']['after'] = "Atribut :attribute harus berupa tanggal setelah :date.";
+$_LANG['validation']['alpha'] = "Atribut :attribute hanya boleh berisi huruf.";
+$_LANG['validation']['alpha_dash'] = "Atribut :attribute hanya boleh berisi huruf, angka, dan tanda hubung.";
+$_LANG['validation']['alpha_num'] = "Atribut :attribute hanya boleh berisi huruf dan angka.";
+$_LANG['validation']['array'] = "Atribut :attribute harus berupa array.";
+$_LANG['validation']['before'] = "Atribut :attribute harus berupa tanggal sebelum :date.";
+$_LANG['validation']['between']['numeric']= "Atribut :attribute harus berada di antara :min dan :max.";
+$_LANG['validation']['between']['file'] = "Atribut :attribute harus antara :min dan :max kilobyte.";
+$_LANG['validation']['between']['string'] = "Atribut :attribute harus berada di antara karakter :min dan :max.";
+$_LANG['validation']['between']['array'] = "Atribut :attribute harus berada di antara item :min dan :max.";
 $_LANG['validation']['boolean'] = "Atribut :attribute harus benar atau salah.";
 $_LANG['validation']['confirmed'] = "Konfirmasi :attribute tidak cocok.";
-$_LANG['validation']['date'] = "Atribut :atribut bukan tanggal yang valid.";
-$_LANG['validation']['date_format'] = "Atribut :atribut tidak cocok dengan format :format.";
+$_LANG['validation']['date'] = "Atribut :attribute bukan tanggal yang valid.";
+$_LANG['validation']['date_format'] = "Atribut :attribute tidak cocok dengan format :format.";
 $_LANG['validation']['different'] = " :attribute dan :other harus berbeda.";
-$_LANG['validation']['digits'] = "Atribut :atribut harus berupa :digits digit.";
-$_LANG['validation']['digits_between'] = "Atribut :atribut harus berada di antara angka :min dan :max.";
-$_LANG['validation']['email'] = "Atribut :atribut harus berupa alamat email yang valid.";
-$_LANG['validation']['exists'] = "Atribut :yang dipilih tidak valid.";
+$_LANG['validation']['digits'] = "Atribut :attribute harus berupa :digits digit.";
+$_LANG['validation']['digits_between'] = "Atribut :attribute harus berada di antara angka :min dan :max.";
+$_LANG['validation']['email'] = "Atribut :attribute harus berupa alamat email yang valid.";
+$_LANG['validation']['exists'] = "Atribut :attribute dipilih tidak valid.";
 $_LANG['validation']['filled'] = "Kolom :attribute wajib diisi.";
-$_LANG['validation']['image'] = "Atribut :atribut harus berupa gambar.";
-$_LANG['validation']['in'] = "Atribut :yang dipilih tidak valid.";
-$_LANG['validation']['integer'] = "Atribut :atribut harus berupa bilangan bulat.";
-$_LANG['validation']['ip'] = "Atribut :atribut harus berupa alamat IP yang valid.";
-$_LANG['validation']['json'] = "Atribut :atribut harus berupa string JSON yang valid.";
-$_LANG['validation']['max']['numeric'] = "Atribut :atribut tidak boleh lebih besar dari :max.";
-$_LANG['validation']['max']['file'] = "Atribut :atribut tidak boleh lebih besar dari :max kilobyte.";
-$_LANG['validation']['max']['string'] = "Atribut :atribut tidak boleh lebih besar dari :max karakter.";
-$_LANG['validation']['max']['array'] = "Item :atribut tidak boleh lebih dari :max.";
+$_LANG['validation']['image'] = "Atribut :attribute harus berupa gambar.";
+$_LANG['validation']['in'] = "Atribut :attribute dipilih tidak valid.";
+$_LANG['validation']['integer'] = "Atribut :attribute harus berupa bilangan bulat.";
+$_LANG['validation']['ip'] = "Atribut :attribute harus berupa alamat IP yang valid.";
+$_LANG['validation']['json'] = "Atribut :attribute harus berupa string JSON yang valid.";
+$_LANG['validation']['max']['numeric'] = "Atribut :attribute tidak boleh lebih besar dari :max.";
+$_LANG['validation']['max']['file'] = "Atribut :attribute tidak boleh lebih besar dari :max kilobyte.";
+$_LANG['validation']['max']['string'] = "Atribut :attribute tidak boleh lebih besar dari :max karakter.";
+$_LANG['validation']['max']['array'] = "Item :attribute tidak boleh lebih dari :max.";
 $_LANG['validation']['mimes'] = " :Attribute harus berupa file dengan tipe: :values.";
-$_LANG['validation']['min']['numeric'] = "Atribut :minimal harus :min.";
-$_LANG['validation']['min']['file'] = "Atribut :minimal harus :min kilobyte.";
-$_LANG['validation']['min']['string'] = "Atribut :atribut minimal harus :min karakter.";
-$_LANG['validation']['min']['array'] = "Atribut :atribut harus memiliki setidaknya :min item.";
-$_LANG['validation']['not_in'] = "Atribut :yang dipilih tidak valid.";
-$_LANG['validation']['numeric'] = "Atribut :atribut harus berupa angka.";
+$_LANG['validation']['min']['numeric'] = "Atribut :attribute harus :min.";
+$_LANG['validation']['min']['file'] = "Atribut :attribute harus :min kilobyte.";
+$_LANG['validation']['min']['string'] = "Atribut :attribute minimal harus :min karakter.";
+$_LANG['validation']['min']['array'] = "Atribut :attribute harus memiliki setidaknya :min item.";
+$_LANG['validation']['not_in'] = "Atribut :attribute dipilih tidak valid.";
+$_LANG['validation']['numeric'] = "Atribut :attribute harus berupa angka.";
 $_LANG['validation']['present'] = "Bidang :attribute harus ada.";
 $_LANG['validation']['regex'] = "Format :attribute tidak valid.";
 $_LANG['validation']['required'] = "Bidang :attribute wajib diisi.";
@@ -2597,13 +2598,13 @@ $_LANG['validation']['required_with_all'] = "Bidang :attribute diperlukan bila :
 $_LANG['validation']['required_without'] = "Bidang :attribute diperlukan bila :values tidak ada.";
 $_LANG['validation']['required_without_all'] = "Bidang :attribute diperlukan bila tidak ada :values yang ada.";
 $_LANG['validation']['same'] = " :attribute dan :other harus cocok.";
-$_LANG['validation']['size']['numeric'] = "Atribut :atribut harus :size.";
-$_LANG['validation']['size']['file'] = "Atribut :atribut harus :ukuran kilobyte.";
-$_LANG['validation']['size']['string'] = "Atribut :atribut harus berupa karakter :size.";
-$_LANG['validation']['size']['array'] = " :Atribut harus berisi item :size.";
-$_LANG['validation']['string'] = "Atribut :atribut harus berupa string.";
-$_LANG['validation']['timezone'] = "Atribut :atribut harus berupa zona yang valid.";
-$_LANG['validation']['unique'] = "Atribut :atribut telah diambil.";
+$_LANG['validation']['size']['numeric'] = "Atribut :attribute harus :size.";
+$_LANG['validation']['size']['file'] = "Atribut :attribute harus :size kilobyte.";
+$_LANG['validation']['size']['string'] = "Atribut :attribute harus berupa karakter :size.";
+$_LANG['validation']['size']['array'] = " :attribute harus berisi item :size.";
+$_LANG['validation']['string'] = "Atribut :attribute harus berupa string.";
+$_LANG['validation']['timezone'] = "Atribut :attribute harus berupa zona yang valid.";
+$_LANG['validation']['unique'] = "Atribut :attribute telah diambil.";
 $_LANG['validation']['url'] = "Format :attribute tidak valid.";
 
 $_LANG['orderErrorServerHostnameInvalid'] = "Nama host server Anda tidak valid.";
@@ -2655,13 +2656,13 @@ $_LANG['domains']['newRegistration'] = "Email telah dikirim ke pemilik domain te
 $_LANG['domains']['newRegistrationDate'] = "Email telah dikirim ke pemilik domain terdaftar. Verifikasi harus diselesaikan paling lambat :date untuk menghindari penangguhan.";
 $_LANG['domains']['irtpLockEnabled'] = "Kunci Transfer IRTP Diaktifkan";
 $_LANG['domains']['irtpLockDescription'] = "Domain ini saat ini dikunci untuk transfer karena perubahan kontak atau pendaftaran baru.";
-$_LANG['domains']['irtpLockDescriptionDate'] = "Domain ini saat ini dikunci untuk transfer karena perubahan kontak atau pendaftaran baru. Masa berlakunya akan habis pada :tanggal.";
+$_LANG['domains']['irtpLockDescriptionDate'] = "Domain ini saat ini dikunci untuk transfer karena perubahan kontak atau pendaftaran baru. Masa berlakunya akan habis pada :date.";
 $_LANG['domains']['resendNotification'] = "Kirim Ulang Email Verifikasi";
 $_LANG['domains']['resendNotificationQuestion'] = "Apakah Anda yakin ingin mengirim ulang email?";
 $_LANG['domains']['resendNotificationSuccess'] = "Email verifikasi telah dikirim ulang.";
 $_LANG['domains']['modifyPending'] = "Verifikasi Diperlukan";
 $_LANG['domains']['changePending'] = "Perubahan yang Anda minta telah memicu proses verifikasi kontak. Email verifikasi kepemilikan telah dikirim ke :email. Klik pada link di email untuk menerapkan perubahan.";
-$_LANG['domains']['changePendingDate'] = "Perubahan yang Anda minta telah memicu proses verifikasi kontak. Email verifikasi kepemilikan telah dikirim ke :email. Klik tautan di email dalam :hari hari untuk menerapkan perubahan .";
+$_LANG['domains']['changePendingDate'] = "Perubahan yang Anda minta telah memicu proses verifikasi kontak. Email verifikasi kepemilikan telah dikirim ke :email. Klik tautan di email dalam :days hari untuk menerapkan perubahan .";
 $_LANG['domains']['changePendingFormRequired'] = "Informasi kontak perubahan Pendaftar Anda berhasil dikirimkan. Untuk menyelesaikan proses ini, Anda diharuskan melengkapi formulir <strong>Perubahan Pendaftar</strong>. Silakan kunjungi :form, lengkapi formulir dengan mengikuti instruksi dan kembalikan kepada kami untuk menyelesaikan proses.";
 
 $_LANG['getStartedNow'] = "Mulai Sekarang";
@@ -2691,7 +2692,7 @@ $_LANG['store']['websiteBuilder']['features']['seo'] = "SEO";
 $_LANG['store']['websiteBuilder']['features']['seoDescription'] = "Alat SEO canggih untuk membantu mesin pencari menemukan Anda";
 $_LANG['store']['websiteBuilder']['pricing']['free']['headline'] = "Coba Weebly";
 $_LANG['store']['websiteBuilder']['pricing']['free']['tagline'] = "Semua yang Anda perlukan untuk membuat situs web";
-$_LANG['store']['websiteBuilder']['pricing']['idealFor'] = "Ideal untuk :untuk";
+$_LANG['store']['websiteBuilder']['pricing']['idealFor'] = "Ideal untuk :for";
 $_LANG['store']['websiteBuilder']['pricing']['siteFeatures'] = "Fitur Situs";
 $_LANG['store']['websiteBuilder']['pricing']['eCommerceFeatures'] = "Fitur eCommerce";
 $_LANG['store']['websiteBuilder']['pricing']['features']['ddBuilder'] = "Pembuat Seret & Lepas";
@@ -2744,7 +2745,7 @@ $_LANG['store']['websiteBuilder']['upgrade']['login'] = "Untuk melihat opsi yang
 $_LANG['store']['websiteBuilder']['upgrade']['no'] = "Tidak ada peningkatan yang tersedia";
 $_LANG['store']['websiteBuilder']['upgrade']['noUpgrade'] = "Tidak ada peningkatan yang tersedia saat ini.";
 $_LANG['store']['websiteBuilder']['upgrade']['submitTicket'] = "Hubungi dukungan";
-$_LANG['store']['websiteBuilder']['upgrade']['to'] = "Tingkatkan ke :produk untuk :amount";
+$_LANG['store']['websiteBuilder']['upgrade']['to'] = "Tingkatkan ke :product untuk :amount";
 $_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "Tidak ditemukan paket Weebly aktif";
 $_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "Anda saat ini login sebagai :email";
 $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Keluar/ganti pengguna";
@@ -2838,7 +2839,7 @@ $_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Lindungi situs web A
 $_LANG['marketConnect']['codeGuard']['manage'] = "Masuk ke Panel Kontrol CodeGuard";
 
 $_LANG['sslState']['sslInactive'] = "SSL Tidak Terdeteksi. Klik di sini untuk menelusuri opsi SSL";
-$_LANG['sslState']['sslActive'] = "SSL Valid Terdeteksi. Kedaluwarsa :kedaluwarsa";
+$_LANG['sslState']['sslActive'] = "SSL Valid Terdeteksi. Kedaluwarsa :expiry";
 $_LANG['sslState']['sslUnknown'] = "Tidak dapat memvalidasi status SSL";
 $_LANG['sslState']['validSsl'] = "SSL Valid Terdeteksi";
 $_LANG['sslState']['noSsl'] = "SSL Tidak Terdeteksi";
@@ -2877,7 +2878,7 @@ $_LANG['twofacurrently'] = "Otentikasi dua faktor saat ini sedang dilakukan";
 $_LANG['enabled'] = "Diaktifkan";
 $_LANG['disabled'] = "Dinonaktifkan";
 
-$_LANG['copyrightFooterNotice'] = "Hak Cipta &copy; :tahun :perusahaan. Semua Hak Dilindungi Undang-Undang.";
+$_LANG['copyrightFooterNotice'] = "Hak Cipta &copy; :year :company. Semua Hak Dilindungi Undang-Undang.";
 
 $_LANG['PaymentMethods']['title'] = "Metode Pembayaran";
 $_LANG['PaymentMethods']['intro'] = "Ikhtisar metode dan pengaturan pembayaran Anda.";
@@ -2988,7 +2989,7 @@ $_LANG['store']['ssl']['competitiveUpgrades']['checkFailed'] = "Tidak dapat terh
 $_LANG['store']['ssl']['competitiveUpgrades']['eligible'] = "Selamat! Domain Anda memenuhi syarat untuk Penawaran Peningkatan Kompetitif DigiCert.";
 $_LANG['store']['ssl']['competitiveUpgrades']['expirationDate'] = "Tanggal Kedaluwarsa Saat Ini";
 $_LANG['store']['ssl']['competitiveUpgrades']['monthsRemaining'] = "Bulan Tersisa";
-$_LANG['store']['ssl']['competitiveUpgrades']['months'] = ":bulan Bulan";
+$_LANG['store']['ssl']['competitiveUpgrades']['months'] = ":months Bulan";
 $_LANG['store']['ssl']['competitiveUpgrades']['maxMonths'] = "Penawaran maksimal 12 bulan";
 $_LANG['store']['ssl']['competitiveUpgrades']['freeExtension'] = "Kelayakan Ekstensi Gratis";
 $_LANG['store']['ssl']['competitiveUpgrades']['saving'] = "Potensi Penghematan";
@@ -3225,7 +3226,7 @@ $_LANG['store']['nordvpn']['features']['comparison']['vpn5'] = "1600+";
 $_LANG['store']['nordvpn']['features']['comparison']['vpn6'] = "6500+";
 $_LANG['store']['nordvpn']['features']['comparison']['log'] = "Kebijakan tanpa pencatatan terverifikasi";
 $_LANG['store']['nordvpn']['features']['comparison']['chat'] = "Dukungan pelanggan obrolan langsung";
-$_LANG['store']['nordvpn']['features']['comparison']['asterisk'] = "*Kinerja jaringan secara keseluruhan menurut penelitian AV-Test. Anda dapat :tagOpenbaca laporan lengkap:tagClose .Tanggal perbandingan: 17 Februari 2021.";
+$_LANG['store']['nordvpn']['features']['comparison']['asterisk'] = "*Kinerja jaringan secara keseluruhan menurut penelitian AV-Test. Anda dapat :tagOpenread laporan lengkap :tagClose .Tanggal perbandingan: 17 Februari 2021.";
 $_LANG['store']['nordvpn']['features']['threat']['title'] = "Lebih dari sekedar VPN";
 $_LANG['store']['nordvpn']['features']['threat']['tagline'] = "Fitur :tagOpenThreat Protection:tagClose dari NordVPN adalah pengubah permainan yang menawarkan lebih banyak manfaat keamanan dan perlindungan yang lebih baik dengan satu klik tambahan.";
 $_LANG['store']['nordvpn']['features']['threat']['protection'] = ":tagOpenThreat Protection:tagClose memblokir iklan dan pelacak web yang mengganggu, dan secara otomatis memindai URL dan memblokir iklan berbahaya. ";
@@ -3236,7 +3237,7 @@ $_LANG['store']['nordvpn']['features']['device']['tagline1'] = "Tidak ada batasa
 $_LANG['store']['nordvpn']['features']['device']['title2'] = "Berfungsi di semua perangkat";
 $_LANG['store']['nordvpn']['features']['device']['tagline2'] = "NordVPN kompatibel dengan semua platform populer, termasuk Windows, macOS, Linux, Android, dan iOS. Selain itu , kamu Cmengamankan hingga 6 perangkat dengan satu akun, termasuk router Anda.";
 $_LANG['store']['nordvpn']['features']['world']['title'] = "Jaringan server VPN yang benar-benar global";
-$_LANG['store']['nordvpn']['features']['world']['tagline'] = "Pilih di antara ribuan server VPN ultra-cepat di seluruh dunia.:tagBreakNikmati koneksi stabil di mana pun Anda berada." ;
+$_LANG['store']['nordvpn']['features']['world']['tagline'] = "Pilih di antara ribuan server VPN ultra-cepat di seluruh dunia.:tagBreakEnjoy koneksi stabil di mana pun Anda berada." ;
 $_LANG['store']['nordvpn']['features']['world']['bullet1'] = "server VPN";
 $_LANG['store']['nordvpn']['features']['world']['count1'] = "5500+";
 $_LANG['store']['nordvpn']['features']['world']['bullet2'] = "Negara";
@@ -3254,7 +3255,7 @@ $_LANG['store']['nordvpn']['features']['security']['tagline4'] = "Apa yang Anda 
 $_LANG['store']['nordvpn']['features']['security']['title4'] = "Fitur tambahan untuk keamanan ekstra";
 $_LANG['store']['nordvpn']['features']['security']['tagline5'] = "NordVPN menawarkan beragam fitur untuk melindungi Anda dari ancaman dunia maya. Selain :tagOpenThreat Protection: tagClose, ada :tagOpenKill Switch:tagClose otomatis yang memblokir koneksi internet Anda jika koneksi VPN Anda terputus, memastikan data Anda tetap aman. :tagOpenDouble VPN:tagClose akan membantu ketika tingkat keamanan online yang tinggi diperlukan karena sensor pemerintah dan peraturan internet yang ketat. Anda juga akan terlindungi dari kebocoran :tagOpenDNS:tagClose.";
 $_LANG['store']['nordvpn']['features']['use']['title1'] = "Kasus Penggunaan";
-$_LANG['store']['nordvpn']['features']['use']['tagline1'] = "Bahkan jika Anda tidak menyembunyikan apa pun, Anda mungkin tidak menyukai gagasan diawasi dan dilacak . Alasan utama mengapa pengguna internet memilih layanan VPN adalah privasi online dan keamanan umum.:tagBreak:tagOpenBerikut adalah alasan spesifik MENGAPA?:tagClose";
+$_LANG['store']['nordvpn']['features']['use']['tagline1'] = "Bahkan jika Anda tidak menyembunyikan apa pun, Anda mungkin tidak menyukai gagasan diawasi dan dilacak . Alasan utama mengapa pengguna internet memilih layanan VPN adalah privasi online dan keamanan umum.:tagBreak:tagOpenHere adalah alasan spesifik MENGAPA?:tagClose";
 $_LANG['store']['nordvpn']['features']['use']['title2'] = "Wi-Fi di Tempat Umum";
 $_LANG['store']['nordvpn']['features']['use']['tagline2'] = "Jaringan Wi-Fi publik di Hotel, Bandara, & Kedai Kopi adalah target sempurna bagi peretas karena seringkali langkah-langkah keamanan rendah.";
 $_LANG['store']['nordvpn']['features']['use']['title3'] = "Perisai penjelajahan dari pihak ketiga";
@@ -3269,7 +3270,7 @@ $_LANG['store']['nordvpn']['features']['use']['title7'] = "Amankan gadget rumah 
 $_LANG['store']['nordvpn']['features']['use']['tagline7'] = "Teknologi rumah pintar dan khususnya perangkat IoT yang tidak aman dapat menciptakan kerentanan pada jaringan rumah.";
 $_LANG['store']['nordvpn']['features']['pricing']['title'] = "Pilih cara pembayaran Anda:";
 $_LANG['store']['nordvpn']['features']['pricing']['get'] = "Memulai";
-$_LANG['store']['nordvpn']['fiturres']['pricing']['save'] = "Hemat :jumlah%!";
+$_LANG['store']['nordvpn']['fiturres']['pricing']['save'] = "Hemat :amount%!";
 $_LANG['store']['nordvpn']['fiturres']['faq']['title'] = "FAQ";
 $_LANG['store']['nordvpn']['features']['faq']['question1'] = "Apa itu VPN?";
 $_LANG['store']['nordvpn']['features']['faq']['answer1'] = "A :tagOpenvirtual private network:tagClose merutekan lalu lintas internet Anda melalui terowongan aman, mengubah lokasi virtual Anda di prosesnya. Namun NordVPN lebih dari sekedar VPN &mdash; kami juga menawarkan alat anti-malware yang kuat.";
@@ -3311,7 +3312,7 @@ $_LANG['store']['threesixtymonitoring']['navTab']['server'] = "Pemantauan Server
 $_LANG['store']['threesixtymonitoring']['navTab']['full'] = "Pemeriksaan Situs Lengkap";
 $_LANG['store']['threesixtymonitoring']['websiteDiscover']['title'] = "Apa itu Pemantauan Situs 360?";
 $_LANG['store']['threesixtymonitoring']['websiteDiscover']['tagline'] = "360 Site Monitoring membuat waktu henti yang tidak disadari menjadi masa lalu!";
-$_LANG['store']['threesixtymonitoring']['websiteDiscover']['i1'] = "Pantau waktu muat dan respons dengan :tagOpenpemindaian reguler:tagClose dan metrik yang dapat Anda gunakan.";
+$_LANG['store']['threesixtymonitoring']['websiteDiscover']['i1'] = "Pantau waktu muat dan respons dengan :tagOpenregular reguler:tagClose dan metrik yang dapat Anda gunakan.";
 $_LANG['store']['threesixtymonitoring']['websiteDiscover']['i2'] = "Maksimalkan waktu aktif dengan menyelesaikan masalah situs web sebelum terjadi dengan :tagOpeninstant alerting.:tagClose";
 $_LANG['store']['threesixtymonitoring']['websiteDiscover']['i3'] = "Cegah downtime dan tingkatkan visibilitas dan pengalaman pelanggan dengan :tagOpen360 Monitoring!:tagClose";
 $_LANG['store']['threesixtymonitoring']['serverDiscover']['title'] = "Apa itu Pemantauan Situs 360?";
@@ -3368,7 +3369,7 @@ $_LANG['store']['threesixtymonitoring']['serverMonitor']['uptime'] = "Waktu Akti
 $_LANG['store']['threesixtymonitoring']['serverMonitor']['perYear'] = "/tahun";
 $_LANG['store']['threesixtymonitoring']['serverMonitor']['asterisk'] = "* Perhitungan didasarkan pada situs web yang menghasilkan pendapatan $500K per tahun, tidak termasuk musim kampanye puncak.";
 $_LANG['store']['threesixtymonitoring']['websitePricing']['title'] = "Harga";
-$_LANG['store']['threesixtymonitoring']['websitePricing']['cta'] = ":tagOpenMencari Pemantauan Server?:tagClose Metrik seperti penggunaan CPU, jaringan, memori, dan disk.";
+$_LANG['store']['threesixtymonitoring']['websitePricing']['cta'] = ":tagOpenLooking Pemantauan Server?:tagClose Metrik seperti penggunaan CPU, jaringan, memori, dan disk.";
 $_LANG['store']['threesixtymonitoring']['serverPricing']['cta'] = ":tagOpenLooking for Website Monitoring?:tagClose Metrik seperti uptime, kinerja, dan kesehatan.";
 $_LANG['store']['threesixtymonitoring']['comparison']['servers'] = "Server";
 $_LANG['store']['threesixtymonitoring']['comparison']['monitors'] = "Situs Web";
@@ -3457,7 +3458,7 @@ $_LANG['metrics']['billing'] = "Penagihan";
 $_LANG['metrics']['includedNotCounted'] = "Termasuk";
 $_LANG['metrics']['includedInBase'] = "termasuk dalam harga dasar";
 
-$_LANG['metrics']['invoiceitem']['perunit'] = ":dikonsumsi :namametrik @ :harga Per :perUnitName";
+$_LANG['metrics']['invoiceitem']['perunit'] = ":consumed :metricname @ :price Per :perUnitName";
 $_LANG['metrics']['invoiceitem']['included'] = ":included :metricname Termasuk";
 
 $_LANG['bankPaymentDeclined'] = "Rincian rekening bank yang Anda masukkan ditolak. Silakan coba rekening lain atau hubungi dukungan.";
@@ -3465,7 +3466,7 @@ $_LANG['invoicePaymentInitiated'] = "Terima kasih! Pembayaran Anda telah berhasi
 $_LANG['genericPaymentDeclined'] = "Pembayaran Anda ditolak. Silakan coba lagi atau hubungi dukungan.";
 
 $_LANG['sitelockvpn']['loginPanelText'] = "Masuk untuk menyiapkan dan mengelola kredensial pengguna VPN Anda dan mengunduh klien VPN.";
-$_LANG['store']['save'] = "Simpan :hemat%";
+$_LANG['store']['save'] = "Simpan :saving%";
 $_LANG['marketConnect']['codeGuard']['manageBackup'] = "Kelola Cadangan";
 $_LANG['store']['chooseExistingDomain'] = "Pilih Domain yang Ada";
 $_LANG['store']['choosePaymentTerm'] = "Pilih Jangka Waktu Pembayaran";
@@ -3644,7 +3645,7 @@ $_LANG['store']['emailServices']['options']['incomingArchive'] = "Pengarsipan Ma
 $_LANG['store']['emailServices']['options']['outgoingArchive'] = "Pengarsipan Keluar";
 $_LANG['store']['emailServices']['options']['incomingFilterArchive'] = "Pemfilteran dan Pengarsipan Masuk";
 $_LANG['store']['emailServices']['options']['outgoingFilterArchive'] = "Pemfilteran dan Pengarsipan Keluar";
-$_LANG['store']['emailServices']['options']['addFor'] = "Tambahkan :deskripsi untuk <span>hanya :harga lebih</span>";
+$_LANG['store']['emailServices']['options']['addFor'] = "Tambahkan :description untuk <span>hanya :pricing lebih</span>";
 $_LANG['store']['emailServices']['faqs']['title'] = "Pertanyaan yang Sering Diajukan";
 $_LANG['store']['emailServices']['faqs']['q1'] = "Bagaimana cara kerjanya?";
 $_LANG['store']['emailServices']['faqs']['a1'] = "Email dirutekan melalui server pembelajaran mandiri cerdas SpamExperts yang akan mendeteksi dan memblokir spam sebelum mencapai Anda.";
@@ -3700,7 +3701,7 @@ $_LANG['clientOwner'] = "Pemilik";
 $_LANG['userManagement']['title'] = "Manajemen Pengguna";
 $_LANG['userManagement']['managePermissions'] = "Kelola Izin";
 $_LANG['userManagement']['permissions'] = "Izin";
-$_LANG['userManagement']['usersFound'] = ":jumlah Pengguna Ditemukan";
+$_LANG['userManagement']['usersFound'] = ":count Pengguna Ditemukan";
 $_LANG['userManagement']['userDescriptor'] = "Alamat Email / Login Terakhir";
 $_LANG['userManagement']['lastLogin'] = "Login Terakhir";
 $_LANG['userManagement']['actions'] = "Tindakan";
@@ -4025,7 +4026,7 @@ $_LANG['store']['addon']['wptk']['plesk']['featureBody5'] = "Tahap, Klon, Sinkro
 $_LANG['store']['addon']['wptk']['plesk']['featureTitle6'] = "Sederhana, namun tidak Amatir";
 $_LANG['store']['addon']['wptk']['plesk']['featureBody6'] = "Dapatkan kontrol penuh dengan WP-CLI, mode pemeliharaan, manajemen debug, manajemen indeks mesin pencari, dan banyak lagi. ";
 $_LANG['store']['addon']['wptk']['midTitle2'] = "Toolkit Paling Lengkap, Aman, dan Serbaguna untuk WordPress";
-$_LANG['store']['addon']['wptk']['screenshotDesc'] = "WP Toolkit Deluxe menyediakan semua yang Anda perlukan untuk menginstal, mengkonfigurasi, memperbarui, dan mengamankan situs web WordPress. Tingkatkan ke WP Toolkit Deluxe hari ini untuk serendah :harga.";
+$_LANG['store']['addon']['wptk']['screenshotDesc'] = "WP Toolkit Deluxe menyediakan semua yang Anda perlukan untuk menginstal, mengkonfigurasi, memperbarui, dan mengamankan situs web WordPress. Tingkatkan ke WP Toolkit Deluxe hari ini untuk serendah :price.";
 $_LANG['store']['addon']['wptk']['screenshotDescFree'] = "WP Toolkit Deluxe menyediakan semua yang Anda perlukan untuk menginstal, mengkonfigurasi, memperbarui, dan mengamankan situs web WordPress. Tingkatkan ke WP Toolkit Deluxe sekarang. ";
 $_LANG['store']['addon']['wptk']['smartUpdates']['screenshotDesc'] = "Pembaruan Cerdas untuk WP Toolkit menyediakan semua yang Anda butuhkan untuk menjaga situs WordPress Anda tetap terkini dan berjalan lancar. Tingkatkan ke Pembaruan Cerdas hari ini hanya dengan :price.";
 $_LANG['store']['addon']['wptk']['smartUpdates']['screenshotDescFree'] = "Pembaruan Cerdas untuk WP Toolkit menyediakan semua yang Anda butuhkan untuk menjaga situs WordPress Anda tetap terkini dan berjalan lancar. Tingkatkan ke Pembaruan Cerdas hari ini.";
@@ -4051,7 +4052,7 @@ $_LANG['store']['addon']['wptk']['faqA4'] = "WP Toolkit Deluxe tersedia sebagai 
 $_LANG['store']['addon']['wptk']['faqQ5'] = "Bagaimana cara mengakses WP Toolkit?";
 $_LANG['store']['addon']['wptk']['faqA5'] = "Jika Anda memiliki akses, Anda akan menemukan ikon dan tautan WP Toolkit di dasbor cPanel Anda. Bagi yang menggunakan WP Toolkit Deluxe, Anda juga akan menemukan link login dari tampilan layanan hosting dalam <a href=\":webRoot/clientarea.php\">area klien</a>.";
 $_LANG['store']['addon']['wptk']['faqQ6'] = "Berapa biaya Pembaruan Cerdas?";
-$_LANG['store']['addon']['wptk']['faqA6'] = "Pembaruan Cerdas tersedia sebagai add-on untuk paket hosting yang berlaku. Untuk melihat harga, silakan <a href=\": webRoot/login.php\">login</a> untuk melihat harga domain Anda yang ada, atau <a href=\":webRoot/register.php\">daftar</a> sebagai pelanggan baru.";
+$_LANG['store']['addon']['wptk']['faqA6'] = "Pembaruan Cerdas tersedia sebagai add-on untuk paket hosting yang berlaku. Untuk melihat harga, silakan <a href=\":webRoot/login.php\">login</a> untuk melihat harga domain Anda yang ada, atau <a href=\":webRoot/register.php\">daftar</a> sebagai pelanggan baru.";
 $_LANG['store']['addon']['wptk']['faqQ7'] = "Bagaimana cara mengakses WP Toolkit?";
 $_LANG['store']['addon']['wptk']['faqA7'] = "Jika Anda memiliki akses, Anda akan menemukan ikon dan tautan WP Toolkit di dasbor Plesk Anda. Pembaruan Cerdas hanya dapat diakses setelahnya pembelian.";
 
@@ -4082,12 +4083,12 @@ $_LANG['ox']['settings']['retrieval'] = "Pengaturan Klien Email";
 $_LANG['ox']['settings']['retrievalIntro'] = "Untuk mengkonfigurasi akun email Anda dalam aplikasi email, gunakan informasi di bawah.";
 $_LANG['ox']['settings']['usageInstructions'] = "Petunjuk Penggunaan";
 $_LANG['ox']['settings']['username'] = "Nama Pengguna";
-$_LANG['ox']['settings']['email'] = "Masukkan alamat email lengkap: nama pengguna@:domain";
+$_LANG['ox']['settings']['email'] = "Masukkan alamat email lengkap: nama username@:domain";
 $_LANG['ox']['settings']['password'] = "Gunakan kata sandi akun email.";
 $_LANG['ox']['settings']['incoming'] = "Server Masuk (IMAP)";
 $_LANG['ox']['settings']['pop'] = "Server Masuk (POP3)";
 $_LANG['ox']['settings']['outgoing'] = "Server Keluar (SMTP)";
-$_LANG['ox']['settings']['port'] = "Pelabuhan: :pelabuhan";
+$_LANG['ox']['settings']['port'] = "Port: :port";
 $_LANG['ox']['settings']['davSettings'] = "Kalender dan Kontak";
 $_LANG['ox']['settings']['davSettingsIntro'] = "Untuk mengakses kalender dan kontak pada perangkat pribadi Anda, Anda perlu mengkonfigurasi klien Anda untuk terhubung ke CalDAV untuk kalender dan CardDAV untuk kontak. Gunakan informasi ini di bawah ini untuk mengkonfigurasi klien Anda.";
 $_LANG['ox']['settings']['caldavPassword'] = "Masukkan kata sandi yang sama dengan yang Anda gunakan untuk login email Anda.";
@@ -4126,7 +4127,7 @@ $_LANG['store']['ssl']['landingPage']['secureInMinutes'] = "Amankan situs Anda d
 $_LANG['store']['fromJust'] = "dari saja";
 $_LANG['store']['forJust'] = "hanya";
 
-$_LANG['goCardless']['PaymentPending'] = "Pembayaran telah dikirimkan dan akan dikliringkan ke bank Anda pada :tanggal. <br>Email konfirmasi pembayaran akan dikirimkan ketika pembayaran telah selesai.";
+$_LANG['goCardless']['PaymentPending'] = "Pembayaran telah dikirimkan dan akan dikliringkan ke bank Anda pada :date. <br>Email konfirmasi pembayaran akan dikirimkan ketika pembayaran telah selesai.";
 $_LANG['goCardless']['automaticPayment'] = "Ada pengaturan pembayaran otomatis untuk akun ini. Tidak diperlukan pembayaran manual.";
 
 $_LANG['contactDetails'] = "KontakDetail";
@@ -4186,7 +4187,7 @@ $_LANG['store']['siteBuilder']['upgrade']['login'] = "Untuk melihat opsi yang te
 $_LANG['store']['siteBuilder']['upgrade']['no'] = "Tidak ada peningkatan yang tersedia";
 $_LANG['store']['siteBuilder']['upgrade']['noUpgrade'] = "Tidak ada peningkatan yang tersedia saat ini.";
 $_LANG['store']['siteBuilder']['upgrade']['submitTicket'] = "Hubungi Dukungan";
-$_LANG['store']['siteBuilder']['upgrade']['to'] = "Tingkatkan ke :produk untuk :amount";
+$_LANG['store']['siteBuilder']['upgrade']['to'] = "Tingkatkan ke :product untuk :amount";
 $_LANG['store']['siteBuilder']['upgrade']['noPlans'] = "Tidak ditemukan paket Pembuat Situs aktif.";
 $_LANG['store']['siteBuilder']['upgrade']['loggedInAs'] = "Anda saat ini login sebagai :email";
 $_LANG['store']['siteBuilder']['upgrade']['switchUser'] = "Keluar/Ganti Pengguna";
@@ -4393,7 +4394,7 @@ $_LANG['ssl']['retrieved'] = "Sistem berhasil mengambil sertifikat Anda.";
 $_LANG['ssl']['copyCert'] = "Salin sertifikat Anda dari teks di bawah ini:";
 $_LANG['ssl']['installing'] = "Memasang Sertifikat Anda";
 $_LANG['ssl']['howToInstall'] = "Untuk menginstal sertifikat Anda, unggah sertifikat di atas ke server atau panel kontrol Anda. Metode untuk melakukan ini tergantung pada lingkungan hosting Anda.";
-$_LANG['ssl']['installFurtherInfo'] = "Untuk informasi lebih lanjut, lihat halaman :anchorRapidSSL Dukungan Instalasi:halaman endAnchor.";
+$_LANG['ssl']['installFurtherInfo'] = "Untuk informasi lebih lanjut, lihat halaman :anchorRapidSSL Dukungan Instalasi :endAnchor halaman.";
 
 $_LANG['recommendations']['title']['generic'] = "Rekomendasi";
 $_LANG['recommendations']['title']['addedTo'] = "Ditambahkan ke Keranjang";
